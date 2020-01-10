@@ -1,0 +1,3 @@
+#app_bar_index:
+#    path: /bar/index
+#    controller: App\Controller\BarController::index
