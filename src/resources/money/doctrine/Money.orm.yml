@@ -1,0 +1,9 @@
+# app/Resources/Money/doctrine/Money.orm.yml
+Money\Money:
+  type: embeddable
+  fields:
+    amount:
+      type: integer
+  embedded:
+    currency:
+      class: Money\Currency
